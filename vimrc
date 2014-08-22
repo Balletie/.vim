@@ -15,7 +15,7 @@ set laststatus=2
 syntax on
 set background=light
 let g:solarized_termcolors=256
-colorscheme solarized
+" colorscheme solarized
 
 " Show a list of tab completions
 set wildmode=longest,full
