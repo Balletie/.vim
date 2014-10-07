@@ -19,3 +19,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "/Users/skip/.vim/bundle/vim-coffee-script"]
+	path = /Users/skip/.vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
