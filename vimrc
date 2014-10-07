@@ -14,8 +14,13 @@ set laststatus=2
 " Syntax Highlighting
 syntax on
 set background=light
-let g:solarized_termcolors=256
-" colorscheme solarized
+"let g:solarized_termcolors=256
+"colorscheme solarized
+colorscheme zenburn
+
+  " Syntastic flags
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
 
 " Show a list of tab completions
 set wildmode=longest,full
