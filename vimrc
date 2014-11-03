@@ -18,9 +18,11 @@ set background=light
 "colorscheme solarized
 colorscheme zenburn
 
-  " Syntastic flags
+" Syntastic flags
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
+
+let g:syntastic_haskell_checkers = ['ghc_mod']
 
 " Show a list of tab completions
 set wildmode=longest,full
