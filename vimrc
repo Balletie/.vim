@@ -13,17 +13,23 @@ set laststatus=2
 
 " Syntax Highlighting
 syntax on
-set background=light
+"set background=light
+set colorcolumn=81
 "let g:solarized_termcolors=256
 "colorscheme solarized
 "colorscheme zenburn
 colorscheme 256-jungle
 
+" Filetype plugin for NERDCommenter
+filetype plugin on
 " Syntastic flags
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 let g:syntastic_haskell_checkers = ['ghc_mod']
 
+" Tagbar binding
+nmap <F9> :TagbarToggle<CR>
+let g:tagbar_autofocus = 1
 " Tagbar for Haskell
 let g:tagbar_type_haskell = {
     \ 'ctagsbin'  : 'hasktags',
