@@ -3,6 +3,7 @@ execute pathogen#infect()
 
 set backspace=indent,eol,start
 
+set encoding=utf-8
 " Highlight search
 set hlsearch
 
@@ -13,6 +14,10 @@ set laststatus=2
 
 " Syntax Highlighting
 syntax on
+
+let $GROFF_NO_SGR=1
+let $TERM='xterm'
+source ~/.vim/ftplugin/man.vim
 "set background=light
 set colorcolumn=81
 "let g:solarized_termcolors=256
