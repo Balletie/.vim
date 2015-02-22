@@ -167,6 +167,7 @@ func <SID>GetPage(...)
   setl bufhidden=hide
   setl nobuflisted
   setl colorcolumn=
+  setl list!
 endfunc
 
 func <SID>PopPage()

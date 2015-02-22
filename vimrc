@@ -5,7 +5,7 @@ set backspace=indent,eol,start
 
 set encoding=utf-8
 " Highlight search
-set hlsearch
+"set hlsearch
 
 " Linenumbers
 set number
@@ -15,6 +15,10 @@ set laststatus=2
 source ~/.vim/ftplugin/man.vim
 let $GROFF_NO_SGR=1
 let $TERM='xterm-256color'
+
+" Show invisible chars
+set list
+set listchars=tab:▸\ ,eol:¬,trail:~,extends:>,precedes:<
 
 " Smarttabs
 set smarttab
@@ -28,7 +32,8 @@ let g:solarized_termcolors=256
 "colorscheme solarized
 "colorscheme zenburn
 "colorscheme 256-jungle
-colorscheme summerfruit256
+"colorscheme summerfruit256
+colorscheme desert256
 
 " Filetype plugin for NERDCommenter
 filetype plugin on
