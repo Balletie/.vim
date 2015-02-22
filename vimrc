@@ -12,18 +12,23 @@ set number
 set ruler
 set laststatus=2
 
-" Syntax Highlighting
-syntax on
-
-let $GROFF_NO_SGR=1
-let $TERM='xterm'
 source ~/.vim/ftplugin/man.vim
-"set background=light
+let $GROFF_NO_SGR=1
+let $TERM='xterm-256color'
+
+" Smarttabs
+set smarttab
+
+" Color column.
 set colorcolumn=81
-"let g:solarized_termcolors=256
+
+" Syntax Highlighting
+syntax enable
+let g:solarized_termcolors=256
 "colorscheme solarized
 "colorscheme zenburn
-colorscheme 256-jungle
+"colorscheme 256-jungle
+colorscheme summerfruit256
 
 " Filetype plugin for NERDCommenter
 filetype plugin on
