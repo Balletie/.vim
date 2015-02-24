@@ -18,7 +18,7 @@ let $TERM='xterm-256color'
 
 " Show invisible chars
 set list
-set listchars=tab:▸\ ,eol:¬,trail:~,extends:>,precedes:<
+set listchars=tab:▸\ ,trail:~,extends:>,precedes:<
 let g:indentLine_char = '▸'
 
 " Smarttabs
