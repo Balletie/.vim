@@ -19,6 +19,7 @@ let $TERM='xterm-256color'
 " Show invisible chars
 set list
 set listchars=tab:▸\ ,eol:¬,trail:~,extends:>,precedes:<
+let g:indentLine_char = '▸'
 
 " Smarttabs
 set smarttab
@@ -33,7 +34,7 @@ let g:solarized_termcolors=256
 "colorscheme zenburn
 "colorscheme 256-jungle
 "colorscheme summerfruit256
-colorscheme desert256
+colorscheme desert256v2
 
 " Filetype plugin for NERDCommenter
 filetype plugin on
