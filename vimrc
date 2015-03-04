@@ -16,6 +16,10 @@ source ~/.vim/ftplugin/man.vim
 let $GROFF_NO_SGR=1
 let $TERM='xterm-256color'
 
+" Airline seperators
+let g:airline_left_sep = '|'
+let g:airline_right_sep = '|'
+
 " Show invisible chars
 set list
 set listchars=tab:▸\ ,trail:~,extends:>,precedes:<
