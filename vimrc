@@ -5,7 +5,7 @@ set backspace=indent,eol,start
 
 set encoding=utf-8
 " Highlight search
-"set hlsearch
+set hlsearch
 
 " Linenumbers
 set number
@@ -31,17 +31,25 @@ set smarttab
 " Color column.
 set colorcolumn=81
 
+" Filetype plugin for NERDCommenter
+filetype plugin on
 " Syntax Highlighting
-syntax enable
 let g:solarized_termcolors=256
 "colorscheme solarized
 "colorscheme zenburn
 "colorscheme 256-jungle
 "colorscheme summerfruit256
-colorscheme desert256v2
+"colorscheme desert256v2
+colorscheme seoul256
 
-" Filetype plugin for NERDCommenter
-filetype plugin on
+syntax enable
+set t_ZH=[3m
+set t_ZR=[23m
+highlight Comment cterm=italic
+
+" Conceal feature
+set conceallevel=2
+
 " Syntastic flags
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
