@@ -17,8 +17,9 @@ let $GROFF_NO_SGR=1
 let $TERM='xterm-256color'
 
 " Airline seperators
-let g:airline_left_sep = '|'
-let g:airline_right_sep = '|'
+"let g:airline_left_sep = '|'
+"let g:airline_right_sep = '|'
+let g:airline_powerline_fonts = 1
 
 " Show invisible chars
 set list
@@ -40,7 +41,8 @@ let g:solarized_termcolors=256
 "colorscheme 256-jungle
 "colorscheme summerfruit256
 "colorscheme desert256v2
-colorscheme seoul256
+"colorscheme seoul256
+colorscheme Tomorrow-Night
 
 syntax enable
 set t_ZH=[3m
